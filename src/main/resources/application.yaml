@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: FileReader
+  datasource:
+    url: jdbc:postgresql://trumpet.db.elephantsql.com:5432/pdzxfwco?user=pdzxfwco&password=GfJ58jUOOo4U8xgqWzM-v68L7OXM6owx
+    username: pdzxfwco
+    password: GfJ58jUOOo4U8xgqWzM-v68L7OXM6owx
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+
+#spring:
+#  application:
+#    name: FileReader
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/req_limit
+#    username: postgres
+#    password: password
+#    hikari:
+#      auto-commit: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create-drop
